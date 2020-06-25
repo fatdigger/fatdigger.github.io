@@ -1,0 +1,225 @@
+// out: style_1.css, soursemap: false, compress: false;
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+@tiny-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+@animate-right: translateX(12px); 
+@space-between-blocks-width: 0.7%;
+@space-between-blocks-height: 8px;
+
+
+.point1 .uline{border: none;}
+
+.point1{color: #999;}
+
+.point1:hover{
+    color: #999;
+    transform: none;
+    box-shadow: none;
+    background-color: white;
+    cursor: default;
+}
+
+.main_text{
+    height: 1460px;
+}
+
+.main_text_block {
+    margin-left: 12%; 
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 33px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_text_block:hover{
+     box-shadow: 1px 1px 5px;
+     cursor: pointer;
+}
+
+.main_text_block:active{
+    box-shadow: inset 1px 1px 5px -1px
+}
+
+
+.main_text_block1{
+    margin-left: 30px;
+}
+
+.main_text_block_pic{
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+
+.main_text_block_text{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.main_text_about{
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.main_text_about_description{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/Images/background-2567158_960_720.jpg);
+    display: inline-block;
+    vertical-align: top;
+    width: 39%;
+    height: 100%;
+    color: #f4e5ac;
+}
+
+.main_text_about_description_title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.main_text_about_description_text{
+    margin-top: 30px;
+    margin-left: 25px;
+    line-height: 20px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.main_text_about_pic{
+    vertical-align: top;
+    display: inline-block;
+    background-image: url(/Images/XXL-min.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    width: 60%;
+    height: 350px;
+    margin-left: -5px;
+}
+
+.main_text_list{
+    margin-top: 40px;
+}
+
+.main_text_about_block2{
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .pic {
+        width: 100%;
+        height: 220px;
+        display: block;
+        margin-top: -30px;
+    }
+    
+    .list {
+        margin-top: -11px;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .point {
+        width: 24.1%;
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 4px;
+        border: none;
+        padding-left: 0;
+        transition: none;
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .uline{border: none;}
+    
+    .footer{
+       width: auto;
+       text-align: center;
+    }
+    
+    .footer_icon{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .footer_text{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .closed_block_phone_and_map {
+        display: block;
+        background-color: #fff;
+        margin-top: -24px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .closed_block {
+        margin-left: 5%;
+    }
+    
+    .phone {
+        padding-top: 40px; 
+        margin-bottom: 60px;     
+    }
+    
+    .place {margin-top: -15px;}
+    .place_2 {padding-top: 40px;}
+    .icon {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    
+    .icon_place {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+    }
+    
+    .place {
+        line-height: 1.43;
+    }
+    
+    .button {
+        border: 1px solid #555888;
+        border-radius: 20px;
+        background-color: #555888;
+        width: 86%;
+        padding: 10px 10px 15px 10px;
+    }
+     
+    .place_text{
+        width: 75%;
+        display: inline-block;
+    }
+    
+    .place_text_main_2{margin-bottom: 50px;}
+    
+        
+    .number {
+        font-size: 22px; 
+        display: inline-block;
+        color: white;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+    .point4, .point5, .block1, .block2, .call_me_block, .main_text, .about_us__block {display: none;}
+}
+
+
+

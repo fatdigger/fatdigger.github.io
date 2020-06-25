@@ -1,0 +1,239 @@
+// out: style_6.css, soursemap: false, compress: false;
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+@tiny-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+@animate-right: translateX(12px); 
+@space-between-blocks-width: 0.7%;
+@space-between-blocks-height: 8px;
+
+.pic{width: 100%;}
+.point{text-decoration: none}
+.closed_block_phone_and_map, .main_text_title{display: none;}
+.stolbic {
+    display: inline-block;
+    width: 26%;
+}
+
+.list{
+    margin-top: 10px;
+    width: 100%;
+}
+.stolbic a {color: #000; text-decoration: none;}
+
+.main_text{
+    vertical-align: top;
+    display: inline-block;
+    width: 70.8%;   
+    margin-left: @space-between-blocks-width;
+    overflow: hidden;
+    border-top: 10px solid white;
+    height: 634px;
+}
+
+.main_text_container{
+    border: 10px solid white;
+    margin-top: -100px;
+}
+
+.text_container{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phone1{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.place_text_add1{color: #adadad; font-size: 15px;}
+
+.plus{margin-top: -5px;}
+
+.number1{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.place_text3{
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.place_text2 {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.icon_phone {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.point6 .uline{border: none;}
+
+.point6{color: #999;}
+
+.point6:hover{
+    color: #999;
+    transform: none;
+    box-shadow: none;
+    background-color: white;
+    cursor: default;
+}
+
+.title_round {width: 66px; height: 66px;}
+
+.title_round_pic{width: 38px; height: 38px; margin-top: 15px; margin-left: 15px;}
+
+@media screen and (max-width: 480px) {
+    
+    .main_text{display: none;}
+    .main_text_title{
+        display: block;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 32px; 
+        padding-top: 22px;
+        font-weight: 100;
+        border: none;
+    }
+    
+    .map_border{
+        border-left: 10px solid white;
+        border-right: 10px solid white;
+        border-bottom: 10px solid white;
+        margin-top: -20px;
+     }
+    
+    .stolbic{
+        width: 100%;
+    }
+    
+    .point{
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .pic {
+        width: 100%;
+        height: 220px;
+        display: block;
+        margin-top: -30px;
+    }
+    
+    .list {
+        margin-top: -11px;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .point {
+        width: 24.1%;
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 4px;
+        border: none;
+        padding-left: 0;
+        transition: none;
+    }
+    
+    .uline{border: none;}
+    
+    .footer{
+       width: auto;
+       text-align: center;
+    }
+    
+    .footer_icon{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .footer_text{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .closed_block_phone_and_map {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        background-color: #fff;
+        margin-top: -30px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .closed_block {
+        margin-left: 5%;
+    }
+    
+    .phone {
+        padding-top: 40px; 
+        margin-bottom: 60px;     
+    }
+    
+    .place {margin-top: -15px; line-height: 1.43; margin-left: 0px;}
+    .place_2 {padding-top: 40px;}
+    .icon {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    
+    .icon_place {
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+    }
+    
+    .button {
+        border: 1px solid #555888;
+        border-radius: 20px;
+        background-color: #555888;
+        width: 86%;
+        padding: 10px 10px 15px 10px;
+    }
+     
+    .place_text{
+        font-size: 18px;
+        width: 75%;
+        display: inline-block;
+    }
+    
+    .place_text_main_2{margin-bottom: 50px;}
+    
+        
+    .number {
+        width: 60%;
+        font-size: 18px;
+        margin-left: 15px;
+        display: inline-block;
+        color: white;
+        vertical-align: top;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+    .point4, .point5, .block1, .block2, .call_me_block, .main_text, .about_us__block {display: none;}
+}
+
+
+
